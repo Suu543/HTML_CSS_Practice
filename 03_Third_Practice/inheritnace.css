@@ -1,0 +1,28 @@
+/* not every style is inherited, such as border, margin */
+div {
+    color: lightcoral;
+    font-weight: bold;
+    border: 1px solid grey;
+    margin: 40px;
+}
+
+/* 만약에 border와 margin 등 by default로 inherit 되지 않는 요소를 상속하고 싶을때 */
+/* 만약에 color와 같이 상속됨에도 불구하고 p tag 자체에 color를 따로 제공하면 따로 제공된 color가 적용된다. */
+p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+/* 마지막에 선언된 style을 적용한다. 
+만약에 위의 코드가
+div p {
+    color: crimson 
+}
+
+인 경우 비록 orange가 마지막에 선언된 style 임에도 불구하고 더 specific 한
+crimson이 적용된다.
+*/
+p {
+    color: orange;
+}
