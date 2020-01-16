@@ -53,21 +53,21 @@ Absolute
 Sticky
 ```
 
-![image-20200116111108154](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200116111108154.png)
+![image-20200116111108154](../images/first.png)
 
-![image-20200116111129072](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200116111129072.png)
-
-
-
-![image-20200116111155749](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200116111155749.png)
+![image-20200116111129072](../images/second.png)
 
 
 
+![image-20200116111155749](../images/third.png)
 
 
-![image-20200116111206510](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200116111206510.png)
 
-![image-20200116111302340](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200116111302340.png)
+
+
+![image-20200116111206510](../images/fourth.png)
+
+![image-20200116111302340](../images/fifth.png)
 
 
 
@@ -75,7 +75,7 @@ Sticky
 
 상황:  아래 사진을 담고 있는 태그가 relative position이라고 생각해보자. 좌측 중간쯤에 Welcome! 이라는 단어를 Responsive 하게 30% 크기로 삽입하고 싶다고 생각해보자.
 
-![](C:\Users\user\Desktop\HTML_CSS_Practice\images\banner.png)
+![](../images/banner.png)
 
 1. 위 사진을 담고 있는 div or semantic tag 가 parent이고 삽입할 welcome 이라는 content를 담고 있는 어떤 tag가 child가 될 것이다. 이때 child는 parent를 기준으로 좌표를 잡아야하기 때문에 parent는 relative가 되어야하고 child는 absolute가 되면된다. Child는 parent에 종속되기 때문에 parent의 사진이나 어떤 content에 설정을 하고 싶다면 absolute를 사용하면된다.
 
